@@ -565,14 +565,14 @@ struct HierarchyPass : public Pass {
 		log("    hierarchy [-check] [-top <module>]\n");
 		log("    hierarchy -generate <cell-types> <port-decls>\n");
 		log("\n");
-		log("In parametric designs, a module might exists in several variations with\n");
+		log("In parametric designs, a module might exist in several variations with\n");
 		log("different parameter values. This pass looks at all modules in the current\n");
 		log("design and re-runs the language frontends for the parametric modules as\n");
 		log("needed. It also resolves assignments to wired logic data types (wand/wor),\n");
 		log("resolves positional module parameters, unrolls array instances, and more.\n");
 		log("\n");
 		log("    -check\n");
-		log("        also check the design hierarchy. this generates an error when\n");
+		log("        also check the design hierarchy. This generates an error when\n");
 		log("        an unknown module is used as cell type.\n");
 		log("\n");
 		log("    -simcheck\n");
